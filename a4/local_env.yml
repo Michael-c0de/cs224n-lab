@@ -1,0 +1,19 @@
+name: local_nmt
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - numpy
+  - scipy
+  - tqdm
+  - docopt
+  - nltk
+  - torchvision
+  - pip
+  - cpuonly
+  - pip:
+    - sentencepiece
+    - sacrebleu
+    - tensorboard
